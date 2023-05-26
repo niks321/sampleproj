@@ -8,8 +8,8 @@ const Navbar = () => {
         <AppBar>
             <Toolbar>
                 <Typography align='center' sx={{ flexGrow: 7 }} style={{color:"AppWorkspace"}} fontStyle={'bold'}>BLOG</Typography>
-                <Button variant='contained' color='inherit'><Link to={'/home'} style={{textDecoration:'none',color:'black'}}>HOME</Link></Button>&nbsp;
-                <Button variant='contained' color='inherit'><Link to={'/add'}style={{textDecoration:'none',color:'black'}}>ADD BLOGS</Link></Button>&nbsp;
+                <Button variant='text' color='inherit'><Link to={'/home'} style={{textDecoration:'none',color:'white'}}>Home</Link></Button>&nbsp;
+                <Button variant='text' color='inherit'><Link to={'/add'}style={{textDecoration:'none',color:'white'}}>Add Blogs</Link></Button>&nbsp;
                
             </Toolbar>
         </AppBar>
